@@ -1,0 +1,70 @@
+.mainbox{
+   
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+   
+}
+h2{
+    /* display: inline-flex; */
+    text-align: center;
+}
+.box{
+    border: 2px solid black;
+    height: 19rem;
+    width: 15rem;
+    background-color: rgb(147, 191, 192);
+    /* margin-top: ; */
+}
+
+.screen{
+    border: 0.5px solid black;
+    height: 3rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: 4px;
+    background-color: rgb(212, 223, 223);
+    display: flex;
+    /* justify-content: baseline; */
+    /* align-items: baseline; */
+    /* text-align: end; */
+    /* align-content: baseline; */
+    text-align: end;
+    font-size: 1.5rem;
+    color: rgb(16, 27, 27);
+}
+.buttons{
+    /* margin-top: 1rem; */
+display: flex;
+/* flex-direction: row; */
+padding: 4.5px;
+flex-wrap: wrap;
+}
+.btn{
+    height: 2rem;
+    width: 3rem;
+    margin: 4.2px;
+}
+/* .btn::onclick{
+
+} */
+.operatr{
+    height: 2rem;
+    width: 3rem;
+    margin: 4.2px;
+    background-color: rgb(77, 58, 58);
+    color: white;
+}
+
+.c{
+    background-color: red;
+}
+.equal{
+    background-color: green;
+}
+.x{
+    background-color: rgb(224, 224, 33);
+}
