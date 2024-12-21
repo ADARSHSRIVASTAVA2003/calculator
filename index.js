@@ -1,7 +1,4 @@
 
-
-
-
 const buttons = document.querySelectorAll('.btn');
 const display = document.getElementById('display');
 let currentInput = "";
@@ -43,9 +40,8 @@ buttons.forEach(button => {
 function calculateResult(input) {
     try {
         // Replace special symbols with valid JavaScript expressions
-        input = input.replace(/√/g, 'Math.sqrt');
-        input = input.replace(/x²/g, '**2');
-        input = input.replace(/π/g, 'Math.PI');
+        
+        input = input.replace(/π/g, Math.PI);
         input = input.replace(/1\/x/g, '1/');
 
         // Prevent accidental invalid inputs
